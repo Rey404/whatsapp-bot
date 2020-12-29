@@ -56,7 +56,7 @@ module.exports = msgHandler = async (client, message) => {
                 Iv: '[❗] Link yang anda kirim tidak valid!'
             }
         }
-        const apiKey = 'API-KEY' // apikey you can get it at https://mhankbarbars.herokuapp.com/api
+        const apiKey = 'B4w56Fy3WQnfEyUNvQy8' // apikey you can get it at https://mhankbarbars.herokuapp.com/api
         const time = moment(t * 1000).format('DD/MM HH:mm:ss')
         const botNumber = await client.getHostNumber()
         const blockNumber = await client.getBlockedIds()
@@ -576,7 +576,7 @@ module.exports = msgHandler = async (client, message) => {
             const tGr = await client.getAllGroups()
             const minMem = 30
             const isLink = link.match(/(https:\/\/chat.whatsapp.com)/gi)
-            if (key !== 'lGjYt4zA5SQlTDx9z9Ca') return client.reply(from, '*key* salah! silahkan chat owner bot unruk mendapatkan key yang valid', id)
+            if (key !== 'B4w56Fy3WQnfEyUNvQy8') return client.reply(from, '*key* salah! silahkan chat owner bot unruk mendapatkan key yang valid', id)
             const check = await client.inviteInfo(link)
             if (!isLink) return client.reply(from, 'Ini link? 👊🤬', id)
             if (tGr.length > 15) return client.reply(from, 'Maaf jumlah group sudah maksimal!', id)
